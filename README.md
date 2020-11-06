@@ -3,5 +3,4 @@
 
 # 구성
 - Vue 2
-- Vuetify
 - Webpack 4
