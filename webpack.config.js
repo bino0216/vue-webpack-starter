@@ -7,7 +7,7 @@ const dist_path = __dirname + '/www';
 // webpack.config.js
 module.exports = {
     mode : 'development',
-    watch: true,
+    watch: false,
     entry: {
       main : './src/main.js',
     },
