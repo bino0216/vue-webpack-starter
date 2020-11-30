@@ -2,6 +2,10 @@ const path = require('path');
 
 const VueLoaderPlugin   = require("vue-loader/lib/plugin");
 const htmlWebpackPlugin = require('html-webpack-plugin');
+
+const webpack = require("webpack");
+const autoprefixer = require("autoprefixer");
+
 const dist_path = __dirname + '/www';
 
 // webpack.config.js
@@ -37,6 +41,7 @@ module.exports = {
             use: [
               'vue-style-loader',
               'css-loader',
+              "postcss-loader",
               'sass-loader'
             ]
           },
@@ -66,6 +71,13 @@ module.exports = {
             removeScriptTypeAttributes: true,
             removeStyleLinkTypeAttributes: true,
             useShortDoctype: true
+          }
+      }),
+      new webpack.LoaderOptionsPlugin({
+          options: {
+              postcss: [
+                  autoprefixer()
+              ]
           }
       })
     ],

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="autoprefixer-test">
     <div id="nav">
       <v-btn value="recent">
         <span>Recent</span>
