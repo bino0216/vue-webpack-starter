@@ -2,7 +2,7 @@
 vue start set with webpack. (for who dont use vue cli)
 
 # configurations
-- Vue 2
+- Vue 2 (vue-router, vuex)
 - Webpack 4
 
 # default options
