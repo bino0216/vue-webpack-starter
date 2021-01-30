@@ -1,6 +1,17 @@
-# Template
-새로운 웹 앱 시작할 때 편리하게 하기 위해 만든 템플릿
+# Templates
+vue start set with webpack.
 
-# 구성
+# configurations
 - Vue 2
 - Webpack 4
+
+# default options
+- s(a|c)ss loader
+- postcss auto prefixer
+- webpack file loader
+- html auto generate plugin
+
+# setup
+```bash
+npm i && webpack
+```
