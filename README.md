@@ -1,5 +1,5 @@
 # Templates
-vue start set with webpack.
+vue start set with webpack. (for who dont use vue cli)
 
 # configurations
 - Vue 2
