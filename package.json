@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "webpack && npx cap sync && npx cap open android"
+    "start": "npm i && webpack"
   },
   "dependencies": {
     "core-js": "^3.6.5",
